@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <form class="calculator">
+      <div class="form-group">
+        <input type="text" />
+      </div>
+      <div class="form-group">
+        <button type="button" onclick="addValue('%')">%</button>
+        <button type="button" onclick = "clearVal()"  >C</button>
+        <button type="button" onclick = "deleteCharacter()"  >DEL</button>
+        <button type="button" onclick = "addValue('/')"  >/</button>
+      </div>
+      <div class="form-group">
+        <button type="button" onclick = "addValue('1')"  >1</button>
+        <button type="button" onclick = "addValue('2')"  >2</button
+        ><button type="button" onclick = "addValue('3')"  >3</button>
+        <button type="button" onclick = "addValue('+')"  >+</button>
+      </div>
+      <div class="form-group">
+        <button type="button" onclick = "addValue('4')"  >4</button>
+        <button type="button" onclick = "addValue('5')"  >5</button
+        ><button type="button" onclick = "addValue('6')"  >6</button>
+        <button type="button" onclick = "addValue('-')"  >-</button>
+      </div>
+      <div class="form-group">
+        <button type="button" onclick = "addValue('7')"  >7</button>
+        <button type="button" onclick = "addValue('8')"  >8</button
+        ><button type="button" onclick = "addValue('9')"  >9</button>
+        <button type="button" onclick = "addValue('*')"  >*</button>
+      </div>
+      <div class="form-group">
+        <button type="button" onclick = "addValue('00')"  >00</button>
+        <button type="button" onclick = "addValue('0')"  >0</button>
+        <button type="button" onclick = "addValue('.')"  >.</button>
+        <button type="button" onclick = " evaluateVal()" class="evaluate">=</button>
+      </div>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
