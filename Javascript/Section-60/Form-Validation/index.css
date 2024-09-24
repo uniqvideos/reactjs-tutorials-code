@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 100px;
+}
+h1{
+    text-align: center;
+    color: rgb(71, 71, 150);
+}
+#form-validate{
+    border: 1px solid rgb(202, 198, 198);
+    width: 30vw;
+    min-width: 300px;
+    height: 60vh;
+    box-shadow: 2px 2px 5px pink;
+    margin: auto;
+    display: grid;
+    padding: 20px;
+}
+#form-validate .form-group{
+    display: flex;
+    flex-direction: column;
+}
+#form-validate .form-group label{
+    font-size: 20px;
+    color: rgb(71, 71, 150);
+    margin-bottom: 5px;
+}
+#form-validate .form-group input{
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(211, 207, 207);
+    font-size: 15px;
+    padding: 5px;
+}
+#form-validate .form-group span{
+    color: red;
+    margin-top: 5px;
+}
+#form-validate button{
+    height: 35px;
+    background-color: rgb(71, 71, 150);
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
