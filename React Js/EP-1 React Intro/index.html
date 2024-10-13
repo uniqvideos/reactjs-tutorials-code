@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="react-root" ></div>
+
+    <script type="text/javascript">
+      let root = document.getElementById("root");
+
+      let head1 = document.createElement("h1");
+
+      head1.innerText = "React Intro";
+
+      root.appendChild(head1);
+    </script>
+    <script type="text/jsx">
+      let root1 = document.getElementById("react-root");
+
+      ReactDOM.render( <h1>Project SetUp</h1>, root1 )
+    </script>
+  </body>
+</html>
