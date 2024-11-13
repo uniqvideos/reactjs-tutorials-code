@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+section{
+  border: 1px solid rgb(188, 171, 171);
+  width : 50%;
+  height: max-content;
+  margin: auto;
+  text-align: center;
+}
+main ul{
+  list-style: none;
+}
+main .item #edit{
+  color: rgb(147, 152, 10);
+  outline: none;
+}
+main .item #delete{
+  color: rgb(185, 33, 84);
+  outline: none;
+}
+main .addItem button{
+  width: 40px;
+  height: 40px ;
+  border-radius: 50%;
+  font-size: 20px;
+}
+main .addItem input{
+  width: 200px;
+  height: 40px ;
+  margin-right: 5px;
+}
+.products{
+  width: 95vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.product{
+  flex-grow: 1;
+}
